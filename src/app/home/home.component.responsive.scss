@@ -1,0 +1,112 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  header {
+    min-height: 80vh;
+    .logo {
+      padding-top: 80px;
+      width: 15%;
+    }
+    .command {
+      width: 15%;
+    }
+  }
+  .separator {
+    width: 15%;
+  }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  header {
+    .logo {
+      width: 30%;
+    }
+    .command {
+      width: 30%;
+    }
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  header {
+    .logo {
+      width: 30%;
+    }
+    .command {
+      width: 30%;
+    }
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  header {
+    .logo {
+      width: 30%;
+    }
+    .command {
+      width: 30%;
+    }
+  }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  header {
+    .logo {
+      width: 30%;
+      padding-top: 40px;
+    }
+    .command {
+      width: 50%;
+    }
+  }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  header {
+    .logo {
+      width: 50%;
+    }
+    .command {
+      width: 60%;
+    }
+  }
+
+}
